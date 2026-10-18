@@ -1,0 +1,12 @@
+﻿fastapi==0.115.6
+uvicorn[standard]==0.32.1
+python-multipart==0.0.9
+pydantic==2.10.6
+httpx==0.28.1
+pytest==8.3.4
+diffusers==0.41.0
+transformers==5.20.1
+accelerate==1.15.0
+safetensors==0.8.0
+huggingface-hub==1.33.0
+Pillow==12.3.0

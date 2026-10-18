@@ -1,0 +1,59 @@
+:root {
+  --navy-strong: #091522;
+  --navy-1: #0d1d2d;
+  --navy-2: #11273a;
+  --ivory: #f1e9de;
+  --ivory-soft: #d9d0c4;
+  --amber: #e7c48a;
+  --sage: #9ab39c;
+  --sky: #9ec7de;
+  --shadow: rgba(3, 9, 16, 0.42);
+  font-family: Inter, 'Segoe UI', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: var(--ivory);
+  background: #07141e;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: var(--navy-strong);
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at top, rgba(69, 99, 125, 0.3), transparent 35%),
+    linear-gradient(180deg, #07141d 0%, #0b1d2d 100%);
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+}

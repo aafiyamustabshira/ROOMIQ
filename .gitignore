@@ -1,0 +1,62 @@
+﻿# Secrets and environment settings
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python environments and caches
+.venv/
+venv/
+env/
+aafiyaenv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Node and build output
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Local databases and user data
+backend/data/
+*.db
+*.sqlite
+*.sqlite3
+
+# Uploaded rooms and generated designs
+roomiq_test.jpg
+roomiq_direct_test.png
+roomiq_api_result.png
+roomiq_bedroom_with_curtains.png
+bedroom.png
+bedroom.png.jpg
+bedroom.png.png
+
+# Local AI model downloads and caches
+.cache/
+huggingface/
+models/
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+
+# Logs and editor files
+logs/
+*.log
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local test environments and backup copies
+roomiq-gpu-test/
+*.bak
